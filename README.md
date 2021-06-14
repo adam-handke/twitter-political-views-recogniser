@@ -10,12 +10,12 @@ Python command line program for recognising political views of Polish twitter ac
 * pillow	8.2.0
 * pip	21.0.1
 * pl-core-news-sm	2.3.0	
-* python	3.9.2	3.9.5
+* python	3.9.2
 * regex	2021.4.4
 * scikit-learn	0.24.2
-* scipy	1.6.2	1.6.2
+* scipy	1.6.2
 * snscrape	0.3.5.dev99+gf44b397	
-* spacy	2.3.5	2.3.5
+* spacy	2.3.5
 * stop-words	2018.7.23	
 * urllib3	1.26.4
 
