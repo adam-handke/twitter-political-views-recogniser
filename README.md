@@ -22,13 +22,21 @@ Python command line program for recognising political views of Polish twitter ac
 ## Running
 
 ### Load tweets for training
-> python twitter_scraper.py
+```bash
+python twitter_scraper.py
+```
 
 ### Train the models (one for each axis)
-> python political_views_recogniser.py -train
+```bash
+python political_views_recogniser.py -train
+```
 
 ### Get the most influential words in each model
-> python political_views_recogniser.py -most
+```bash
+python political_views_recogniser.py -most
+```
 
 ### Recognise political views of a twitter user
-> python political_views_recogniser.py [twitter_username]
+```bash
+python political_views_recogniser.py [twitter_username]
+```
