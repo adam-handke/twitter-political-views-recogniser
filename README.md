@@ -40,3 +40,9 @@ python political_views_recogniser.py -most
 ```bash
 python political_views_recogniser.py [twitter_username]
 ```
+
+## Example
+```bash
+python political_views_recogniser.py szymon_holownia
+```
+![Example compass](https://github.com/adam-handke/twitter-political-views-recogniser/blob/main/example.png?raw=true)
