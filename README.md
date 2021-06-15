@@ -1,5 +1,10 @@
 # Twitter political views recogniser
-Python command line program for recognising political views of Polish twitter accounts. Draws a 3-axis political compass for a given twitter account based on last 1000 tweets of that account. Training data based on public <a href="https://mypolitics.pl/" title="myPolitics">myPolitics</a> test results and public Twitter accounts. Loading tweets thanks to <a href="https://github.com/JustAnotherArchivist/snscrape" title="snscrape">snscrape</a>. Compass template based on <a href="https://sapplyvalues.github.io/" title="SapplyValues">SapplyValues</a>. 
+Python command line program for recognising political views of Polish Twitter accounts. Draws a 3-axis political compass for a given Twitter account based on last 1000 tweets of that account. Training data is based on public <a href="https://mypolitics.pl/" title="myPolitics">myPolitics</a> test results and public Twitter accounts (last 1000 tweets of each user from the dataset). Loading tweets thanks to <a href="https://github.com/JustAnotherArchivist/snscrape" title="snscrape">snscrape</a>. Compass template based on <a href="https://sapplyvalues.github.io/" title="SapplyValues">SapplyValues</a>. 
+
+## myPolitics dataset
+As we can see on the picture below, the data distribution is not balanced. Authoritarian and Conservative political views are underrepresented. It is may be a result of less interest of people with such views in publishing their political compasses. It should be taken into account when analysing results.
+
+![Dataset compass](https://github.com/adam-handke/twitter-political-views-recogniser/blob/main/dataset_compass.png?raw=true)
 
 ## Requirements
 * joblib	1.0.1
